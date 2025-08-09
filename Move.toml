@@ -1,0 +1,15 @@
+[package]
+name = "DelegationSystem"
+version = "1.0.0"
+authors = []
+
+[addresses]
+SendMessage="209014deac15ea534892aa00eb8b7ad66085c41a3ce936b4e70b85282312a2c1"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
